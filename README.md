@@ -30,7 +30,7 @@ npm install
 ### Configuration
 1. Define the Chains:
 ```bash
-rm /chains/testnet.json && nano /chains/testnet.json
+rm chains/testnet.json && nano chains/testnet.json
 ```
    Edit new `testnet.json` with below code.
 
@@ -98,11 +98,11 @@ rm /chains/testnet.json && nano /chains/testnet.json
 ```Bash
 nano privateKeys.json
 ```
-     ```json
+```Bash
      [
          "0xYOUR_PRIVATE_KEY_1"
      ]
-     ```
+```
 ### Run Transfer BOT
 1. Run the script for random address generation and transactions:
 ```bash
